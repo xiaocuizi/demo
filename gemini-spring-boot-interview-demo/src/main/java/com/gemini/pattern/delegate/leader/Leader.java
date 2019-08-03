@@ -1,6 +1,6 @@
 package com.gemini.pattern.delegate.leader;
 
-import com.gemini.map.HashMapDemo;
+/*import com.gemini.map.HashMapDemo;*/
 
 import java.util.HashMap;
 import java.util.Map;
