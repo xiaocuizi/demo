@@ -1,5 +1,7 @@
 package com.gemini.algorithm;
 
+import java.util.Arrays;
+
 /**
  * @author xiaocuzi
  * @package com.gemini.algorithm
@@ -11,19 +13,15 @@ package com.gemini.algorithm;
 public class StrRerview {
 
     public static void main(String[] args) {
-        String str = "abcdefg";
+        String str = "fedcba";
         char[] chars = str.toCharArray();
-        // 左指针
-        char beforeCursor = chars[0];
-        // 右指针
-        char aterCursor = chars[chars.length - 1];
-        char temp;
         int i = 0;
         int j = 0;
-       /* for (i = 0, j = chars.length - 1; i < chars.length,j > -1;i++, j--){
-
-
-
-        }*/
+        int size = chars.length;
+        char[] taget = new char[size];
+        for (i = 0, j = size - 1; j > -1; j--, i++) {
+            taget[j] = chars[i];
+        }
+        System.out.printf("chars=%s", Arrays.toString(taget));
     }
 }
