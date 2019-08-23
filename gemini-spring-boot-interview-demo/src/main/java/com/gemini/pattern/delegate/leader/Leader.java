@@ -28,7 +28,8 @@ public class Leader implements ITaget{
      * @param commamd
      */
     @Override
-    public void doIng(String commamd) {
+    public void
+    doIng(String commamd) {
         targets.get(commamd).doIng(commamd);
     }
 }
