@@ -18,8 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     private static Logger logger = LoggerFactory.getLogger( HelloController.class );
 
-    @Value( "${server.port}" )
+    @Value("${server.port}")
     String port;
+    @Value("${key1}")
+    String key1;
 
     @GetMapping("hi")
     public String hi(String name) {
@@ -28,6 +30,6 @@ public class HelloController {
         logger.info( "info log..." );
         logger.warn( "warn log..." );
 
-        return "hi " + name + " ,i am from port:" + port;
+        return "hi " + name + " ,i am from port:" + port +",key:"+key1;
     }
 }
