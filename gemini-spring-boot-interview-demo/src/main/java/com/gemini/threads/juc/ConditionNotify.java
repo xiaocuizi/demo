@@ -1,5 +1,8 @@
 package com.gemini.threads.juc;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
@@ -12,7 +15,6 @@ import java.util.concurrent.locks.Lock;
  * @since 1.0.0
  */
 public class ConditionNotify implements Runnable{
-
     private Lock lock;
     private Condition condition;
 

@@ -17,4 +17,10 @@ public class AddCommand implements Command {
     public Integer execute() {
         return a + b;
     }
+
+    public static void main(String[] args) {
+        do {
+            System.out.println("cccccccccccc");
+        }while (true);
+    }
 }

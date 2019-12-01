@@ -48,23 +48,27 @@ public class CompletableFutureDemo {
         System.out.println("["+Thread.currentThread().getName()+"]start.......");*/
 
 
-        CompletableFuture supplyAsyncCompletableFuture1 = CompletableFuture.supplyAsync(()->{
+        CompletableFuture supplyAsyncCompletableFuture1 = CompletableFuture.supplyAsync(() -> {
             //假设数据操作，来自于数据库
             //return "hello,Worlds2";
-            return "["+Thread.currentThread().getName()+"]Hello Wolds~~";
-        }).thenApply(v->{
-            return v+"-来自于数据库";
-        }).thenApply(v->{
-            return v+ LocalDate.now();
-        }).thenApply(v->{
+            return "[" + Thread.currentThread().getName() + "]Hello Wolds~~";
+        }).thenApply(v -> {
+            return v + "-来自于数据库";
+        }).thenApply(v -> {
+            return v + LocalDate.now();
+        }).thenApply(v -> {
             return v;
-        }).thenRun(()->{
+        }).thenRun(() -> {
             System.out.println("操作结束。。。。。");
-        }).exceptionally((e)->{
-           e.printStackTrace();
+        }).exceptionally((e) -> {
+            e.printStackTrace();
             return null;
         });
-        System.out.println("["+Thread.currentThread().getName()+"]start.......");
+        while (!supplyAsyncCompletableFuture1.isDone()){
+            System.out.println("操作结束2。。。。。");
+        }
+        System.out.println("v="+supplyAsyncCompletableFuture1.get());
+        System.out.println("[" + Thread.currentThread().getName() + "]start.......");
 
     }
 }

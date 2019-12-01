@@ -15,6 +15,13 @@ import java.util.Map;
 public class HashMapDemo {
     public static void main(String[] args) {
         Map<Object, Object> map = Collections.synchronizedMap(new HashMap<>());
+
+        //业务线前缀
+        int lob = 112;
+        long prefix = lob % 1000;
+
+        prefix = lob << 2;
+        System.out.println(prefix);
     }
 }
 
