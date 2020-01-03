@@ -11,6 +11,7 @@ import com.gemini.pattern.proxy.Person;
  * @date 2018/12/4 16:25
  */
 public class XieMu implements Person {
+    @Override
     public void findLove(){
         System.out.println("肤白");
         System.out.println("貌美");

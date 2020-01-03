@@ -34,6 +34,7 @@ public class TheadStatusDemo {
          },"watting").start();
     }
     static class BlockThead0 extends Thread{
+      @Override
       public void run(){
           synchronized (BlockThead0.class){
               while (true){

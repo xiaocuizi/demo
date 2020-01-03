@@ -9,13 +9,13 @@ package com.gemini.extendses;
  * @since 1.0.0
  */
 public class B {
-    static {
+    /*static {
         System.out.printf("b1\n");
     }
 
     {
         System.out.printf("b2\n");
-    }
+    }*/
 
     public B() {
         System.out.printf("b3\n");

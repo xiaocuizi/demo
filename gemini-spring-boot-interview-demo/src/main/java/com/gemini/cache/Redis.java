@@ -14,7 +14,26 @@ import org.redisson.core.RLock;
  */
 public class Redis {
 
+    public synchronized static  int m() {
+        System.out.println(Thread.currentThread().getName());
+        return 0;
+    }
+
     public static void main(String[] args) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Redis.m();
+            }
+        }).start();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Redis.m();
+            }
+        }).start();
+
+        Redis.m();
       /*  Redisson redisson = new Redisson(null);
 
         RLock rLock = redisson.getLock("name");

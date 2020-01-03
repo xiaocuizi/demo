@@ -9,7 +9,10 @@ package com.gemini.arithmetic;
  * @date 2019/4/6 20:25
  */
 public class interiew1 {
-
+    public static int num = 1;
+    static {
+        System.out.println("num="+num);
+    }
     static {
         System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
     }

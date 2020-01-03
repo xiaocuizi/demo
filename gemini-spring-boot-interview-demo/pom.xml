@@ -115,7 +115,23 @@
 			<artifactId>spring-retry</artifactId>
 			<version>1.2.4.RELEASE</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>sofa-rpc-all</artifactId>
+            <version>5.5.3</version>
+        </dependency>
+
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-transport-simple-http</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-core</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+    </dependencies>
 
 	<build>
 		<plugins>

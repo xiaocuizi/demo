@@ -20,6 +20,7 @@ public class Interrupt {
     }
 
     public static class Worker implements Runnable {
+        @Override
         public void run() {
             System.out.println("Worker started.");
 

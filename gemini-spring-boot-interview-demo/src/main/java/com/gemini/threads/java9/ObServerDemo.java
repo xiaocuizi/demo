@@ -40,6 +40,7 @@ public class ObServerDemo {
          * Marks this {@code Observable} object as having been changed; the
          * {@code hasChanged} method will now return {@code true}.
          */
+        @Override
         public void setChanged() {
             super.setChanged();
         }

@@ -42,6 +42,7 @@ public class SignThirdService implements IsignThirdService {
         return iSingService.login(username, pwd);
     }
 
+    @Override
     public ResultMsg loginQQ(String openId) {
         //openId，全局唯一，当做用户名
         //密码
@@ -51,6 +52,7 @@ public class SignThirdService implements IsignThirdService {
     }
 
 
+    @Override
     public ResultMsg loginWechat(String openId) {
         ResultMsg resultMsg = this.getResultMsg(openId, null);
         return resultMsg;

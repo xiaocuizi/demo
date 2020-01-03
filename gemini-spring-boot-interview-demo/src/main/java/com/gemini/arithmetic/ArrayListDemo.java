@@ -15,19 +15,26 @@ import java.util.List;
 public class ArrayListDemo {
 
     public static void main(String[] args) {
-//        List<Integer> list = new ArrayList<>();
-        List<Integer> list = Collections.synchronizedList(new ArrayList<>());
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);
+        List<String> list = new ArrayList<>();
+//        List<Integer> list = Collections.synchronizedList(new ArrayList<>());
+        list.add("1");
+        list.add("2");
+        list.add("3");
+        list.add("4");
+        list.add("5");
 
-        for (Integer i : list) {
-            if (i == 3) {
-                list.add(12);
+        for (String item : list) {
+            if ("2".equals(item)) {
+                list.remove(item);
             }
         }
+
+
+//        for (Integer i : list) {
+//            if (i == 3) {
+//                list.add(12);
+//            }
+//        }
 //        int incr = incr();
 //        System.out.printf("incr=%s",incr);
 

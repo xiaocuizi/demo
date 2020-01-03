@@ -15,9 +15,9 @@ import java.util.List;
  */
 public class ListDemo {
     public static void main(String[] args) {
-        List<Student> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
         // Java 7的钻石语法(构造器后面的尖括号中不需要写类型)
-        list.add(new Student("Hao LUO", 33));
+       /* list.add(new Student("Hao LUO", 33));
         list.add(new Student("XJ WANG", 32));
         list.add(new Student("Bruce LEE", 60));
         list.add(new Student("Bob YANG", 22));
@@ -27,7 +27,7 @@ public class ListDemo {
                 //return o1.getName().compareTo(o2.getName());
                 return o1.getName().compareTo(o2.getName());
             }
-        });
+        });*/
     }
 }
 

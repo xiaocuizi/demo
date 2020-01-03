@@ -16,6 +16,7 @@ import java.util.concurrent.Executors;
 public class RateLimiterDemo {
     static RateLimiter rateLimiter = RateLimiter.create(2);
     public static class Task implements Runnable{
+        @Override
         public void run(){
             try {
                 Thread.sleep(5000);

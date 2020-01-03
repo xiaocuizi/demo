@@ -5,6 +5,7 @@ public class ThreadLocalDemo {
     private static Integer num = 0;
 
     private static ThreadLocal<Integer> threadLocal = new ThreadLocal<Integer>() {
+        @Override
         protected Integer initialValue() {
             return 0;
         }

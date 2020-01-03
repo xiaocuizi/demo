@@ -9,13 +9,13 @@ package com.gemini.extendses;
  * @since 1.0.0
  */
 public class A extends B {
-    static {
+    /*static {
         System.out.printf("a1\n");
     }
 
     {
         System.out.printf("a2\n");
-    }
+    }*/
 
     public A() {
 
@@ -24,7 +24,7 @@ public class A extends B {
 
 
     public static void main(String[] args) {
-        A a = new A();
         B b = new B();
+        A a = new A();
     }
 }
