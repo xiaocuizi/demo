@@ -36,4 +36,9 @@ public class Node {
     public void setVal(int val) {
         this.val = val;
     }
+
+    private class Node2<Zhangsan>{
+
+        Zhangsan data;
+    }
 }
