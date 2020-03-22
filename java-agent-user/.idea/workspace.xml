@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda14fa3-8bc4-4579-b5e0-10eefd643816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-algorithm-demo/src/main/java/com/gemini/demo/core/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-algorithm-demo/src/main/java/com/gemini/demo/core/list/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-algorithm-demo/src/main/java/com/gemini/demo/core/list/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-algorithm-demo/src/main/java/com/gemini/demo/core/oberser/HelloRx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-algorithm-demo/src/main/java/com/gemini/demo/core/stack/Mystatck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/BindExceptionHanlder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/asnyc/AsyncController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/asnyc/DeferredResultQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/cache/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/cache/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/cache/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/cache/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/cache/ValidatorVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/event/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/event/IPListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/event/LogEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/event/LogListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/log/DoSomething.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/log/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/valid/ExampleValidatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/valid/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/valid/ResultResponseBodyAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/valid/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/valid/ResultVO_IGNORE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/valid/ValidatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/java/com/gemini/valid/ValidatorVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-aop-demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/pushJoke/Jokes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/pushJoke/PushJokeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-agent-demo/src/main/java/com/gemni/agent/MyIntercetor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-agent-demo/src/main/java/com/gemni/agent/PreMainAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/JavaAgentUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/algorithm/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/algorithm/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-zookeeper-demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-zookeeper-demo/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gemini-springcloud-configserver-demo/src/main/resources/configs" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-springcloud-configserver-demo/src/main/resources/configs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-agent-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,7 +56,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1943" />

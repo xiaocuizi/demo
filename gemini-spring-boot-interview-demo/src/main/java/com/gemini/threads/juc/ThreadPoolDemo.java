@@ -10,7 +10,7 @@ import java.util.concurrent.*;
  * @date 2019/5/27 10:37
  * @since 1.0.0
  */
-public class ThreadPoolDemo {
+public class  ThreadPoolDemo {
     static class App implements Runnable {
         @Override
         public void run() {
