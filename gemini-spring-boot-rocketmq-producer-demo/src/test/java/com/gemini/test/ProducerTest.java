@@ -2,6 +2,7 @@ package com.gemini.test;
 
 import com.gemini.MQProducerApplication;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.producer.SendCallback;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
@@ -28,6 +29,8 @@ public class ProducerTest {
 
     @Test
     public void test1() throws InterruptedException {
+        DefaultMQProducer producer = rocketMQTemplate.getProducer();
+        producer.setRetryTimesWhenSendFailed(7);
         // rocketMQTemplate.convertAndSend("springboot-mq","hello springboot rocketmq3");
         rocketMQTemplate.asyncSend("springboot-mq", "hello springboot rocketmq5", new SendCallback() {
             @Override

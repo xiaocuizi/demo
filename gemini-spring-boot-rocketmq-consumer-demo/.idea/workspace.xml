@@ -2,52 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a62342ec-545f-404c-9689-377116c20da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gemini-spring-boot-rocketmq-consumer-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemini/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemini/ConsumerMessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemini/MQConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/base/customer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/base/producer/AsyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/base/producer/OneWayProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/base/producer/SyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/delay/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/delay/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/filter/tag/TagConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/filter/tag/TagProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/order/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/order/OrderStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/order/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/transation/TXConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-demo/src/main/java/com/gemini/transation/TXProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/gemini-spring-boot-rocketmq-producer-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/src/main/java/com/gemini/MQProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/src/test/java/com/gemini/test/ProducerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-security-demo/src/main/java/com/gemini/geminispringbootsecuritydemo/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-security-demo/src/main/java/com/gemini/geminispringbootsecuritydemo/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-security-demo/src/main/java/com/gemini/geminispringbootsecuritydemo/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-mvc-security-demo/src/main/java/com/gemini/security/springmvc/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/arithmetic/ArraysMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/arithmetic/ArraysMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/core/soft/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/core/soft/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/threads/juc/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-interview-demo/src/main/java/com/gemini/threads/juc/ThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-user/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-consumer/src/main/java/com/gemini/ConsumerBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-consumer/src/main/java/com/gemini/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-interface/src/main/java/com/gemini/shop/service/IUerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-provider/src/main/java/com/gemini/ProviderBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-provider/src/main/java/com/gemini/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../geimini-springboot-dubbo-demo/dubbo-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemini/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemini/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/ConsumerMessageListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/MQConsumerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/src/test/java/com/gemini/test/ProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/src/test/java/com/gemini/test/ProducerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,35 +33,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3-sources.jar!/org/apache/rocketmq/spring/support/DefaultRocketMQListenerContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="357" column="54" lean-forward="true" selection-start-line="357" selection-start-column="54" selection-end-line="357" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageOrderlyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="270" selection-start-line="269" selection-end-line="270" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/impl/consumer/DefaultMQPushConsumerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
-              <folding>
-                <element signature="e#5203#5223#0" expanded="true" />
-                <element signature="e#6184#6185#0" expanded="true" />
-                <element signature="e#6245#6246#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="6156">
+              <caret line="335" column="50" selection-start-line="335" selection-end-line="336" />
             </state>
           </provider>
         </entry>
@@ -94,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gemini/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="783">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,10 +56,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../geimini-springboot-dubbo-demo/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../geimini-springboot-dubbo-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.5.1/rocketmq-common-4.5.1.jar!/org/apache/rocketmq/common/message/MessageExt.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeConcurrentlyStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerConcurrently.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3-sources.jar!/org/apache/rocketmq/spring/core/RocketMQListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -139,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gemini/MessageListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gemini/ConsumerMessageListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gemini/Consumer.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -155,6 +167,22 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gemini-spring-boot-rocketmq-consumer-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gemini-spring-boot-rocketmq-consumer-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-215" />
@@ -167,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,34 +218,6 @@
               <item name="gemini-spring-boot-rocketmq-consumer-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gemini-spring-boot-rocketmq-consumer-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gemini-spring-boot-rocketmq-consumer-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gemini" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gemini-spring-boot-rocketmq-consumer-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gemini-spring-boot-rocketmq-consumer-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gemini-spring-boot-rocketmq-consumer-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gemini-spring-boot-rocketmq-consumer-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gemini-spring-boot-rocketmq-consumer-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gemini-spring-boot-rocketmq-consumer-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -251,19 +250,31 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gemini-spring-boot-rocketmq-consumer-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.rocketmq:rocketmq-client:4.5.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="rocketmq-client-4.5.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584880733253" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584961079213" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/pom.xml" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\yu\demo\gemini-spring-boot-rocketmq-consumer-demo" />
       <recent name="D:\workspace\yu\demo\gemini-spring-boot-rocketmq-consumer-demo\src\main\resources" />
     </key>
   </component>
@@ -352,22 +363,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-215" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29697624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23056155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Anonymous Apex" />
-      <window_info anchor="bottom" id="Log Analyzer" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="SOQL Query" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3277512" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32296652" />
@@ -375,62 +378,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="RestServices" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4539749" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="9" />
+      <window_info anchor="bottom" id="Log Analyzer" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.38636363" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="SOQL Query" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32991362" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="RestServices" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.29697624" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="2" />
-      <window_info anchor="bottom" id="Log Analyzer" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Messages" order="5" />
-      <window_info anchor="bottom" id="SOQL Query" order="6" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3277512" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.32296652" />
-      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.56100476" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="RestServices" order="5" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gemini/teste/ProducerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gemini/teste/ProducerTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3.jar!/org/apache/rocketmq/spring/annotation/RocketMQMessageListener.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
@@ -548,77 +515,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeConcurrentlyStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gemini/ConsumerMessageListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="405">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerConcurrently.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3-sources.jar!/org/apache/rocketmq/spring/core/RocketMQListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gemini/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/impl/consumer/DefaultMQPushConsumerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
-          <folding>
-            <element signature="e#5203#5223#0" expanded="true" />
-            <element signature="e#6184#6185#0" expanded="true" />
-            <element signature="e#6245#6246#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageOrderlyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="5616">
           <caret line="270" selection-start-line="269" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/impl/consumer/DefaultMQPushConsumerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
+          <folding>
+            <element signature="e#6184#6185#0" expanded="true" />
+            <element signature="e#6245#6246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/stereotype/Indexed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerOrderly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar!/lombok/extern/slf4j/Slf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3-sources.jar!/org/apache/rocketmq/spring/support/DefaultRocketMQListenerContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="357" column="54" lean-forward="true" selection-start-line="357" selection-start-column="54" selection-end-line="357" selection-end-column="54" />
+        <state relative-caret-position="6156">
+          <caret line="335" column="50" selection-start-line="335" selection-end-line="336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gemini/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geimini-springboot-dubbo-demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geimini-springboot-dubbo-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.5.1/rocketmq-common-4.5.1.jar!/org/apache/rocketmq/common/message/MessageExt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeConcurrentlyStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerConcurrently.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3-sources.jar!/org/apache/rocketmq/spring/core/RocketMQListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
