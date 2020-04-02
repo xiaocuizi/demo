@@ -26,6 +26,16 @@ public class UserController {
         return list;
     }
 
+    /**
+     * @api {GET} /add add
+     * @apiVersion 1.0.0
+     * @apiGroup UserController
+     * @apiName add
+     * @apiDescription 添加方法
+     * @apiSuccess (响应结果) {Object} response
+     * @apiSuccessExample 响应结果示例
+     * {}
+     */
     @GetMapping("/add")
     public Object add() {
 

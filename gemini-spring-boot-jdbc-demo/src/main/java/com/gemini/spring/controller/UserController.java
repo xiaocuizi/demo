@@ -31,7 +31,7 @@ public class UserController {
      * @return
      */
     @RequestMapping("/web/flux/user/save")
-    public Boolean saveUser(@RequestParam String name){
+    public boolean saveUser(@RequestParam String name){
         User user1 = new User();
         user1.setName(name);
         return userRepository.saveUser(user1) ;

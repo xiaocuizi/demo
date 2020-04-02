@@ -1,5 +1,8 @@
 package com.gemini.threads.morethread.jisuan;
 
+import com.gemini.core.SempleDemo;
+
+import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -13,7 +16,9 @@ import java.util.concurrent.locks.ReentrantLock;
  * @since 1.0.0
  */
 public class TestJisuan {
+    final Semaphore semaphore = new Semaphore(5);
     public static void main(String[] args) {
+
 
     }
 }
