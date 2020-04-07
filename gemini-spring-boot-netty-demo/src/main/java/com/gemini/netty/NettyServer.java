@@ -35,7 +35,6 @@ public class NettyServer {
         .childHandler(new ChannelInitializer<Channel>() {
             @Override
             protected void initChannel(Channel channel) throws Exception {
-                System.out.println("begin initChannel...........");
                 ChannelPipeline pipeline = channel.pipeline();
                 pipeline.addLast(new LengthFieldBasedFrameDecoder(Integer.MAX_VALUE,0,4,0,4));
                 pipeline.addLast(new StringDecoder(CharsetUtil.UTF_8));
@@ -47,7 +46,6 @@ public class NettyServer {
         });
         ChannelFuture channelFuture = serverBootstrap.bind(IP, PORT).sync();
         channelFuture.channel().closeFuture().sync();
-        System.out.println("server started...........");
     }
     public static void shutdonw(){
         bossGoup.shutdownGracefully();
@@ -55,9 +53,8 @@ public class NettyServer {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("begin server start...........");
         NettyServer.start();
-        System.out.println("end server end...........");
+        System.out.println("begin server start...........");
     }
 
 
