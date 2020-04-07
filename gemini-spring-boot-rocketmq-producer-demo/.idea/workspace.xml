@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa9313a-7126-4f20-bf32-900cf6ab6992" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-mini/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-mini/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-mini/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-mini/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,8 +182,16 @@
       <updated>1584872365814</updated>
       <workItem from="1586051663753" duration="63000" />
       <workItem from="1586263598782" duration="239000" />
-      <workItem from="1586264100440" duration="151000" />
+      <workItem from="1586264100440" duration="234000" />
     </task>
+    <task id="LOCAL-00001" summary="add files">
+      <created>1586264279892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586264279892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -218,7 +223,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2132" y="-167" key="CommitChangelistDialog2" timestamp="1586264277629">
+      <screen x="1920" y="-207" width="1920" height="1040" />
+    </state>
+    <state x="2132" y="-167" key="CommitChangelistDialog2/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586264277629" />
     <state x="2610" y="10" key="FileChooserDialogImpl" timestamp="1586264169175">
       <screen x="1920" y="-207" width="1920" height="1040" />
     </state>
@@ -227,6 +240,10 @@
       <screen x="1920" y="-207" width="1920" height="1040" />
     </state>
     <state x="2728" y="209" key="VCS.EditChangelistDialog/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586264147831" />
+    <state x="2372" y="-20" key="Vcs.Push.Dialog.v2" timestamp="1586264283501">
+      <screen x="1920" y="-207" width="1920" height="1040" />
+    </state>
+    <state x="2372" y="-20" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586264283501" />
   </component>
   <component name="masterDetails">
     <states>
