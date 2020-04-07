@@ -7,65 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="121e019c-c521-4c14-b55b-d8e2df66ebf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/chat/CustomHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/chat/HelloServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/chat/HelloServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/websocket/ChatHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/websocket/WSServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/websocket/WServerInitialzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/ormframwork/TestA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/ormframwork/common/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/ormframwork/common/ResultMsg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/ormframwork/common/s.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv1/annotation/GMAutoWried.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv1/annotation/GMController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv1/annotation/GMRequestMapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv1/annotation/GMRequestParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv1/annotation/GMService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv1/demo/BetaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv1/demo/BetaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv1/demo/BetaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv1/servlet/GMDispatchServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/annotation/GMAutoWried.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/annotation/GMController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/annotation/GMRequestMapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/annotation/GMRequestParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/annotation/GMService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/aop/GMAopConfig$GMAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/aop/GMAopConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/aop/GMAopProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/aop/GMAopProxyUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/aspect/LogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/beans/GMBeanDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/beans/GMBeanPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/beans/GMBeanWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/context/GMAbstractApplicationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/context/GMApplicationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/context/GMApplicationContextAware.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/context/GMDefaultListableBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/context/support/GMBeanDefinitionReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/core/GMBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/core/GMFactoryBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/demo/BetaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/demo/BetaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/demo/BetaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/webmvc/servlet/GMDispatchServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/webmvc/servlet/GMHandlerAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/webmvc/servlet/GMHandlerMapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/webmvc/servlet/GMModelAndView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gemini/web/springv2/webmvc/servlet/GMViewResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/layouts/first.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,12 +111,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\grow\gemini-spring-mini\src\main\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\yu\demo\gemini-spring-mini" />
       <recent name="D:\workspace\grow\gemini-spring-mini\src\main\com\gemini\web\springv2" />
       <recent name="D:\workspace\grow\gemini-spring-mini\src\main\com\gemini\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\grow\gemini-spring-mini\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.GMViewResolver">
@@ -420,6 +365,7 @@
       <workItem from="1560985787097" duration="1190000" />
       <workItem from="1561206410598" duration="1505000" />
       <workItem from="1586147550814" duration="1341000" />
+      <workItem from="1586263435559" duration="516000" />
     </task>
     <servers />
   </component>
@@ -431,26 +377,38 @@
       <screen x="1920" y="-207" width="1920" height="1040" />
     </state>
     <state x="2689" y="194" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263489415" />
+    <state x="2012" y="-115" width="1736" height="856" key="DiffContextDialog" timestamp="1586263910208">
+      <screen x="1920" y="-207" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="-115" width="1736" height="856" key="DiffContextDialog/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263910208" />
     <state x="2794" y="-112" key="FileChooserDialogImpl" timestamp="1586263586976">
       <screen x="1920" y="-207" width="1920" height="1040" />
     </state>
     <state x="2794" y="-112" key="FileChooserDialogImpl/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263586976" />
-    <state width="1865" height="485" key="GridCell.Tab.0.bottom" timestamp="1586263510197">
+    <state width="1865" height="485" key="GridCell.Tab.0.bottom" timestamp="1586263959443">
       <screen x="1920" y="-207" width="1920" height="1040" />
     </state>
-    <state width="1865" height="485" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263510197" />
-    <state width="1865" height="485" key="GridCell.Tab.0.center" timestamp="1586263510197">
+    <state width="1865" height="485" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263959443" />
+    <state width="1865" height="485" key="GridCell.Tab.0.center" timestamp="1586263959443">
       <screen x="1920" y="-207" width="1920" height="1040" />
     </state>
-    <state width="1865" height="485" key="GridCell.Tab.0.center/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263510197" />
-    <state width="1865" height="485" key="GridCell.Tab.0.left" timestamp="1586263510197">
+    <state width="1865" height="485" key="GridCell.Tab.0.center/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263959443" />
+    <state width="1865" height="485" key="GridCell.Tab.0.left" timestamp="1586263959442">
       <screen x="1920" y="-207" width="1920" height="1040" />
     </state>
-    <state width="1865" height="485" key="GridCell.Tab.0.left/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263510197" />
-    <state width="1865" height="485" key="GridCell.Tab.0.right" timestamp="1586263510197">
+    <state width="1865" height="485" key="GridCell.Tab.0.left/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263959442" />
+    <state width="1865" height="485" key="GridCell.Tab.0.right" timestamp="1586263959443">
       <screen x="1920" y="-207" width="1920" height="1040" />
     </state>
-    <state width="1865" height="485" key="GridCell.Tab.0.right/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263510197" />
+    <state width="1865" height="485" key="GridCell.Tab.0.right/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263959443" />
+    <state x="2715" y="209" key="VCS.ChangelistChooser" timestamp="1586263870380">
+      <screen x="1920" y="-207" width="1920" height="1040" />
+    </state>
+    <state x="2715" y="209" key="VCS.ChangelistChooser/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263870380" />
+    <state x="2728" y="209" key="VCS.EditChangelistDialog" timestamp="1586263889208">
+      <screen x="1920" y="-207" width="1920" height="1040" />
+    </state>
+    <state x="2728" y="209" key="VCS.EditChangelistDialog/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586263889208" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
