@@ -23,9 +23,12 @@ public class LogTraceIdConsumerDubboFilter implements Filter {
                 LogTraceUitls.addTraceId();
             }
             RpcContext.getContext().setAttachment(LogTraceUitls.logTraceId, LogTraceUitls.getLogTraceId());
+            return invoker.invoke(invocation);
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            LogTraceUitls.removeTraceId();
         }
-        return invoker.invoke(invocation);
+        return null;
     }
 }
