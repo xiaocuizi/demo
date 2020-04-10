@@ -1,0 +1,2 @@
+logTraceIdConsumerDubbo=com.gemini.dubbo.triceid.LogTraceIdConsumerDubboFilter
+logTraceIdProviderDubbo=com.gemini.dubbo.triceid.LogTraceIdProviderDubboFilter

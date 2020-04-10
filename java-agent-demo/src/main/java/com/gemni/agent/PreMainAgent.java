@@ -10,6 +10,8 @@ import net.bytebuddy.utility.JavaModule;
 
 import java.lang.instrument.Instrumentation;
 
+import static net.bytebuddy.matcher.ElementMatchers.named;
+
 /**
  * @author xiaocuzi
  * @version v1.0.0
@@ -33,7 +35,8 @@ public class PreMainAgent {
              */
             @Override
             public DynamicType.Builder<?> transform(DynamicType.Builder<?> builder, TypeDescription typeDescription, ClassLoader classLoader, JavaModule javaModule) {
-                return builder.method(ElementMatchers.<MethodDescription>any()).intercept(MethodDelegation.to(MyIntercetor.class));
+                // return builder.method(ElementMatchers.<MethodDescription>any()).intercept(MethodDelegation.to(MyIntercetor.class));
+                return builder.method(named("sayHello")).intercept(MethodDelegation.to(MyIntercetor.class));
             }
         };
         new AgentBuilder.Default().type(ElementMatchers.nameStartsWith("com.agent"))

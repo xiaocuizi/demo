@@ -2,6 +2,9 @@ package com.gemini.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.gemini.shop.service.IUerInterface;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,12 +19,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 public class UserController {
+    Logger log = LoggerFactory.getLogger(UserController.class);
 
-    @Reference
+    @Reference(check = false, filter = {"logTraceIdConsumerDubbo"})
     private IUerInterface userService;
 
+    // @Autowired
+    // private InvokeTraceidClient client;
+
     @RequestMapping("/sayHello")
-    public String sayHello(String name){
+    public String sayHello(String name) {
+        log.info("sayHello name=" + name);
         return userService.sayHello(name);
     }
 

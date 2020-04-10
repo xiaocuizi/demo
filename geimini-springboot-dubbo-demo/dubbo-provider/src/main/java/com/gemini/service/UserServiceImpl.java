@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * @date 2020/3/23 10:42
  */
 @Component
-@Service(interfaceClass = IUerInterface.class) // dubbo的Service
+@Service(interfaceClass = IUerInterface.class,filter = {"logTraceIdProviderDubbo"} ) // dubbo的Service
 public class UserServiceImpl implements IUerInterface {
     Logger log = LoggerFactory.getLogger(UserServiceImpl.class);
 

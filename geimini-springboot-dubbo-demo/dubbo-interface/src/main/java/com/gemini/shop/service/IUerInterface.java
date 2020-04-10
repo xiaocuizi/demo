@@ -1,5 +1,7 @@
 package com.gemini.shop.service;
 
+import com.alibaba.dubbo.config.annotation.Service;
+
 /**
  * @author xiaocuzi
  * @version v1.0.0
