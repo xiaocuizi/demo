@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda14fa3-8bc4-4579-b5e0-10eefd643816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/file/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/file/FileClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/file/FileServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/file/FileServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/upload/HttpUploadClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/upload/HttpUploadClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/upload/HttpUploadClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/upload/HttpUploadServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/upload/HttpUploadServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/java/com/gemini/upload/HttpUploadServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-agent-demo/src/main/java/com/gemni/agent/BanluAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/java-agent-user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/SayHelloService2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemini/SayHelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-netty-demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gemini-spring-boot-rocketmq-producer-demo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/src/main/java/com/gemni/agent/PreMainAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/src/main/java/com/gemni/agent/PreMainAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/target/classes/com/gemni/agent/PreMainAgent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/target/classes/com/gemni/agent/PreMainAgent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/target/classes/com/gemni/agent/PreMainAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/target/classes/com/gemni/agent/PreMainAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/target/java-agent-demo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/target/java-agent-demo.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-agent-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-agent-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java-agent-user.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/java-agent-user.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584408056788" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -76,6 +47,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.agent" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\yu\demo\java-agent-user" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SayHelloService2">
@@ -182,6 +156,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584352396849</updated>
       <workItem from="1586488142249" duration="6267000" />
+      <workItem from="1586516414661" duration="605000" />
+      <workItem from="1586517347837" duration="91000" />
     </task>
     <servers />
   </component>
@@ -206,25 +182,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="42" key="FileChooserDialogImpl/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586507435169" />
-    <state width="1865" height="322" key="GridCell.Tab.0.bottom" timestamp="1586507438685">
+    <state width="1225" height="123" key="GridCell.Tab.0.bottom" timestamp="1586517022494">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1865" height="322" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586507438685" />
+    <state width="1225" height="123" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586517022494" />
     <state width="1865" height="377" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586499412360" />
-    <state width="1865" height="322" key="GridCell.Tab.0.center" timestamp="1586507438685">
+    <state width="1225" height="123" key="GridCell.Tab.0.center" timestamp="1586517022493">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1865" height="322" key="GridCell.Tab.0.center/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586507438685" />
+    <state width="1225" height="123" key="GridCell.Tab.0.center/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586517022493" />
     <state width="1865" height="377" key="GridCell.Tab.0.center/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586499412359" />
-    <state width="1865" height="322" key="GridCell.Tab.0.left" timestamp="1586507438685">
+    <state width="1225" height="123" key="GridCell.Tab.0.left" timestamp="1586517022493">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1865" height="322" key="GridCell.Tab.0.left/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586507438685" />
+    <state width="1225" height="123" key="GridCell.Tab.0.left/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586517022493" />
     <state width="1865" height="377" key="GridCell.Tab.0.left/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586499412359" />
-    <state width="1865" height="322" key="GridCell.Tab.0.right" timestamp="1586507438685">
+    <state width="1225" height="123" key="GridCell.Tab.0.right" timestamp="1586517022493">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1865" height="322" key="GridCell.Tab.0.right/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586507438685" />
+    <state width="1225" height="123" key="GridCell.Tab.0.right/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586517022493" />
     <state width="1865" height="377" key="GridCell.Tab.0.right/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586499412359" />
     <state width="1865" height="322" key="GridCell.Tab.1.bottom" timestamp="1586507438686">
       <screen x="0" y="0" width="1280" height="680" />
@@ -246,6 +222,10 @@
     </state>
     <state width="1865" height="322" key="GridCell.Tab.1.right/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586507438686" />
     <state width="1865" height="322" key="GridCell.Tab.1.right/0.0.1280.680/1920.-207.1920.1040@1920.-207.1920.1040" timestamp="1586499112908" />
+    <state x="328" y="0" key="RollbackChangesDialog" timestamp="1586517416469">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="328" y="0" key="RollbackChangesDialog/0.0.1280.680/1920.-207.1920.1040@0.0.1280.680" timestamp="1586517416469" />
     <state x="93" y="93" width="1095" height="495" key="dock-window-1" timestamp="1586516477998">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
